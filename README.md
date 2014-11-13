@@ -1,6 +1,6 @@
-# README
+# README - Installation Instructions
 
-## Installation Instructions
+---------------------------------
 
 ## Step One
 
@@ -24,21 +24,31 @@ $ git clone https://github.com/webapp-builders/groundwork.git
 
 $ cd groundwork
 
+---------------------------------
+
 ## Step Five
 
 $ vagrant up
+
+---------------------------------
 
 ## Step Six
 
 $ vagrant ssh
 
+---------------------------------
+
 ## Step Seven
 
 $ cd /vagrant
 
+---------------------------------
+
 ## Step Eight
 
 $ bundle install
+
+---------------------------------
 
 ## Step Nine
 
