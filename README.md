@@ -1,9 +1,6 @@
 # README
 
-
 ## Installation Instructions
-
-===================================
 
 ## Step One
 
