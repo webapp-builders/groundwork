@@ -1,7 +1,7 @@
-== README
+# README
 
 
-# Installation Instructions
+## Installation Instructions
 
 ===================================
 
