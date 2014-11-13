@@ -6,13 +6,19 @@
 
 Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and install.
 
+---------------------------------
+
 ## Step Two
 
 Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
+---------------------------------
+
 ## Step Three
 
 $ git clone https://github.com/webapp-builders/groundwork.git
+
+---------------------------------
 
 ## Step Four
 
