@@ -1,6 +1,7 @@
 == README
 
-# Installation Instructions to Work with us and to Contribute
+
+# Installation Instructions
 
 ===================================
 
