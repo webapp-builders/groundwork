@@ -11,6 +11,7 @@ Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and install.
 ## Step Two
 
 Download [Vagrant](http://www.vagrantup.com/downloads) and install.
++ we recommend Starting with [rails/rails-dev-box](https://github.com/rails/rails-dev-box)
 
 ---------------------------------
 
