@@ -11,8 +11,20 @@ sudo easy_install pip
 sudo pip install ansible
 ```
 
+### OR (if you use ubuntu/debian)
 
-### OR (if you have homebrew)
+```
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible
+```
+
+### OR (if you have centos/redhat)
+
+`yum install ansible`
+
+### OR (if you have OSX homebrew)
 
 `brew install ansible`
 
