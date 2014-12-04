@@ -4,13 +4,17 @@
 
 ## Step Zero - Install Ansible
 
-$ sudo easy_install pip
+You can follow the instructions on the [Ansible website](http://docs.ansible.com/intro_installation.html#installing-the-control-machine) or either of the options below:
 
-$ sudo pip install ansible
+```
+sudo easy_install pip
+sudo pip install ansible
+```
+
 
 ### OR (if you have homebrew)
 
-$ brew install ansible
+`brew install ansible`
 
 ---------------------------------
 
@@ -28,40 +32,40 @@ Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
 ## Step Three - Repo
 
-$ git clone https://github.com/webapp-builders/groundwork.git
+`git clone https://github.com/webapp-builders/groundwork.git`
 
 ---------------------------------
 
 ## Step Four
 
-$ cd groundwork
+`cd groundwork`
 
 ---------------------------------
 
 ## Step Five
 
-$ vagrant up
+`vagrant up`
 
 ---------------------------------
 
 ## Step Six
 
-$ vagrant ssh
+`vagrant ssh`
 
 ---------------------------------
 
 ## Step Seven
 
-$ cd /vagrant
+`cd /vagrant`
 
 ---------------------------------
 
 ## Step Eight
 
-$ bundle install
+`bundle install`
 
 ---------------------------------
 
 ## Step Nine
 
-$ bundle exec rspec spec
+`bundle exec rspec spec`
