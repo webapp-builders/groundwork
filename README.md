@@ -81,3 +81,11 @@ Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 ## Step Nine
 
 `bundle exec rspec spec`
+
+---------------------------------
+
+## Step Ten
+
+`rails server`
+
+Go to your browser and open http://33.33.33.33:3000
