@@ -11,6 +11,10 @@ sudo easy_install pip
 sudo pip install ansible
 ```
 
+### OR (if you have OSX homebrew)
+
+`brew install ansible`
+
 ### OR (if you use ubuntu/debian)
 
 ```
@@ -23,10 +27,6 @@ sudo apt-get install ansible
 ### OR (if you have centos/redhat)
 
 `yum install ansible`
-
-### OR (if you have OSX homebrew)
-
-`brew install ansible`
 
 ---------------------------------
 
