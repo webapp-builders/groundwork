@@ -13,19 +13,19 @@ $ brew install ansible
 
 ---------------------------------
 
-## Step One
+## Step One - Virtualbox
 
 Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and install.
 
 ---------------------------------
 
-## Step Two
+## Step Two - Vagrant
 
 Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
 ---------------------------------
 
-## Step Three
+## Step Three - Repo
 
 $ git clone https://github.com/webapp-builders/groundwork.git
 
