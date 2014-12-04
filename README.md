@@ -5,6 +5,7 @@
 ## Step Zero - Install Ansible
 
 $ sudo easy_install pip
+
 $ sudo pip install ansible
 
 ### OR (if you have homebrew)
