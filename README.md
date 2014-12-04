@@ -56,7 +56,7 @@ Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
 ## Step Seven
 
-`cd /vagrant`
+`cd /vagrant/application/web`
 
 ---------------------------------
 
