@@ -8,8 +8,8 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: groundwork
-  password: groundwork
+  username: vagrant
+  password: vagrant
 
 development:
   <<: *default
