@@ -1,0 +1,17 @@
+---
+- hosts: all
+  sudo:  true
+  vars:
+    doc_root: /var/www/web
+    ruby_version: ruby-2.1.4
+    ruby_gems:
+      - { name: rails }
+      - { name: compass }
+      - { name: sass }
+      - { name: execjs }
+      - { name: therubyracer }
+      - { name: bootstrap }
+  roles:
+    - init
+    - nodejs
+    - rvm

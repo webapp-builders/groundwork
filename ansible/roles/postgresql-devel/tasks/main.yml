@@ -1,0 +1,5 @@
+- name: Install Postgres Dev Libraries
+  sudo: yes
+  apt:  pkg={{ item }} state=latest
+  with_items:
+    - libpq-dev
