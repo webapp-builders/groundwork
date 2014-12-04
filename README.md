@@ -2,6 +2,17 @@
 
 ---------------------------------
 
+## Step Zero - Install Ansible
+
+$ sudo easy_install pip
+$ sudo pip install ansible
+
+### OR (if you have homebrew)
+
+$ brew install ansible
+
+---------------------------------
+
 ## Step One
 
 Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and install.
