@@ -69,6 +69,12 @@ cd groundwork
 vagrant up
 ```
 
+If you need to stop through the process for any reason (or if the recipe gets updated), please type:
+
+```
+vagrant provision
+```
+
 ---------------------------------
 
 ## Step Six
