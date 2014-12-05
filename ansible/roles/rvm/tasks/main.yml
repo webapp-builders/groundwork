@@ -1,0 +1,16 @@
+---
+  - name: Install GPG
+    sudo: no
+    shell: bash -c "gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3"
+
+  - name: Install RVM
+    sudo: no
+    shell: bash -c "curl -sSL https://get.rvm.io | bash -s stable --ruby"
+
+  - name: Install ruby
+    sudo: no
+    shell: bash -c "~/.rvm/bin/rvm install {{ ruby_version }}"
+
+  - name: Install ruby gems
+    sudo: no
+    shell: bash -c "cd {{ doc_root }} && ~/.rvm/gems/{{ ruby_version }}/wrappers/bundle install"

@@ -1,0 +1,14 @@
+---
+- hosts: all
+  sudo:  true
+  vars:
+    doc_root: /var/www/web
+    ruby_version: ruby-2.1.4
+    ruby_gems:
+      - { name: execjs }
+      - { name: therubyracer }
+  roles:
+    - init
+    - nodejs
+    - postgres
+    - rvm

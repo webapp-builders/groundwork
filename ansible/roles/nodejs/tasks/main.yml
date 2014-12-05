@@ -1,0 +1,5 @@
+- name: Install NodeJS
+  sudo: yes
+  apt:  pkg={{ item }} state=latest
+  with_items:
+    - nodejs
