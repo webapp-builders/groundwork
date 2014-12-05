@@ -78,6 +78,10 @@ vagrant ssh
 
 ---------------------------------
 
+#### If you want to use your own application, do the necessary steps you do and skip to step 10.
+
+---------------------------------
+
 ## Step Seven
 
 ```
