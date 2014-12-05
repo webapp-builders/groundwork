@@ -20,6 +20,7 @@ brew install ansible
 ### OR (if you use ubuntu/debian)
 
 ```
+sudo apt-get install python-yaml python-markupsafe nfs-kernel-server nfs-common-portmap
 sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
