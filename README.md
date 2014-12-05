@@ -13,7 +13,9 @@ sudo pip install ansible
 
 ### OR (if you have OSX homebrew)
 
-`brew install ansible`
+```
+brew install ansible
+```
 
 ### OR (if you use ubuntu/debian)
 
@@ -26,7 +28,9 @@ sudo apt-get install ansible
 
 ### OR (if you have centos/redhat)
 
-`yum install ansible`
+```
+yum install ansible
+```
 
 ---------------------------------
 
@@ -44,48 +48,64 @@ Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
 ## Step Three - Repo
 
-`git clone https://github.com/webapp-builders/groundwork.git`
+```
+git clone https://github.com/webapp-builders/groundwork.git
+```
 
 ---------------------------------
 
 ## Step Four
 
-`cd groundwork`
+```
+cd groundwork
+```
 
 ---------------------------------
 
 ## Step Five
 
-`vagrant up`
+```
+vagrant up
+```
 
 ---------------------------------
 
 ## Step Six
 
-`vagrant ssh`
+```
+vagrant ssh
+```
 
 ---------------------------------
 
 ## Step Seven
 
-`cd /vagrant/application/web`
+```
+cd /vagrant/application/web
+```
 
 ---------------------------------
 
 ## Step Eight
 
-`bundle install`
+```
+bundle install
+```
 
 ---------------------------------
 
 ## Step Nine
 
-`bundle exec rspec spec`
+```
+bundle exec rspec spec
+```
 
 ---------------------------------
 
 ## Step Ten
 
-`rails server`
+```
+rails server -b 33.33.33.33
+```
 
 Go to your browser and open http://33.33.33.33:3000
