@@ -71,6 +71,7 @@ If you change the server configuration contained in the ansible directory, remem
 
 
 **Symbolic Link**
+
 You can make a symbolic link if you'd like to see the folder as soon as you ssh into vagrant. It's nice but not necessary.
 If you would like your new folder to be named 'workspace', start terminal and do the following:
 
