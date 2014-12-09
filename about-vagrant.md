@@ -49,11 +49,10 @@ Example: '/your_name_here/groundwork/newfolder' can be found as '/vagrant/newfol
 
 
 ## Starting Rails
-The default ip address used by Vagrant is:
+The default ip address used by the groundwork virtual server is:
 33.33.33.33
 
-So to access your rails project, remember to set the ip address.
-
+Remember to set the ip address when you start the rails server for any project running within this virtual machine.
 `rails s -b 33.33.33.33`
 
 
