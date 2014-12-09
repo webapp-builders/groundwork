@@ -1,39 +1,46 @@
 # About Vagrant
 
 ## Vagrant Commands
-----------------------
 
 `vagrant up`
+
 Starts the server. This command only works when you are in the *groundwork* directory... the same directory as the Vagrantfile.
 
 `vagrant halt`
+
 Stops the server
 
 `vagrant suspend`
+
 Server is suspended, but still running in the background.
 
 `vagrant ssh`
+
 Enters the server
 
 `exit`
+
 Exits from vagrant ssh
 
 `vagrant status`
-Shows you if the project's vagrant is running/not running if you forgot.
+
+Shows you if vagrant is running/not running if you forgot.
 
 `vagrant global-status`
+
 Shows you the status of all vagrant servers that exist on your computer.
 
 `vagrant provision`
+
 Vagrant will look for new settings/configuration in Vagrantfile and apply it. Vagrant must be running.
 
 `vagrant destroy`
+
 Deletes the virtual machine. The next time you use *vagrant up*, the server will be completely rebuilt. 
 This is not something you regularly do once vagrant is working correctly.
 
 
 ## Synced Folders
-----------------------
 Vagrant has the ability to sync folders in the host machine with folders in the virtual machine. 
 
 The groundwork vagrant configuration currently syncs the 'groundwork' folder in the host machine as '/vagrant' in the virtual machine.
@@ -42,7 +49,6 @@ Example: '/your_name_here/groundwork/newfolder' can be found as '/vagrant/newfol
 
 
 ## Starting Rails
-----------------------
 The default ip address used by Vagrant is:
 33.33.33.33
 
@@ -52,7 +58,6 @@ So to access your rails project, remember to set the ip address.
 
 
 ## Further Customization
-----------------------
 **Changing the Vagrantfile**
 
 If you choose to change the Vagrantfile to change the ip address of the virtual server, edit/sync additional folders, be sure to restart the Vagrant server.
@@ -82,7 +87,6 @@ vagrant halt                        # turning off vagrant, since I'm not doing a
 
 
 ## Definitions
-----------------------
 **Host machine (box/computer)**
 
 This is the computer that Vagrant is installed on. A host machine can run more than one virtual machine. 
