@@ -49,14 +49,11 @@ Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
 ## Step Three - Repo
 
-Go to directory you want clone into.
+Go to directory you want clone into. For example, if you want to clone into `/someuser/myapps/`
 
-For example, if you want to clone into /someuser/myapps/
-
-You could do: cd /someuser/myapps/
+You could do: `cd /someuser/myapps/`
 
 Then type below:
-
 ```
 git clone https://github.com/webapp-builders/groundwork.git
 ```
@@ -68,10 +65,19 @@ git clone https://github.com/webapp-builders/groundwork.git
 ```
 cd groundwork
 ```
+*Note*: If your computer only supports 32-bit operating systems, open the file: `Vagrantfile`<br>
+Update line 3 and 4, to use "precise32" (which is the operating system that will run inside VirtualBox.)
+
+Line 3 and 4 should be as follows:
+```
+config.vm.box       = 'precise32'
+config.vm.box_url   = 'http://files.vagrantup.com/precise32.box'
+```
 
 ---------------------------------
 
 ## Step Five
+
 
 ```
 vagrant up
