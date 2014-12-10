@@ -50,9 +50,13 @@ Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 ## Step Three - Repo
 
 Go to directory you want clone into.
+
 For example, if you want to clone into /someuser/myapps/
+
 You could do: cd /someuser/myapps/
+
 Then type below:
+
 ```
 git clone https://github.com/webapp-builders/groundwork.git
 ```
