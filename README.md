@@ -66,13 +66,7 @@ git clone https://github.com/webapp-builders/groundwork.git
 cd groundwork
 ```
 *Note*: If your computer only supports 32-bit operating systems, open the file: `Vagrantfile`<br>
-Update line 3 and 4, to use "precise32" (which is the operating system that will run inside VirtualBox.)
-
-Line 3 and 4 should be as follows:
-```
-config.vm.box       = 'precise32'
-config.vm.box_url   = 'http://files.vagrantup.com/precise32.box'
-```
+Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" (which is the operating system that will run inside VirtualBox).
 
 ---------------------------------
 
