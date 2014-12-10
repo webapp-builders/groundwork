@@ -2,6 +2,10 @@ Vagrant.configure("2") do |config|
     # Configure the box to use
     config.vm.box       = 'precise64'
     config.vm.box_url   = 'http://files.vagrantup.com/precise64.box'
+    # If you can only use a 32-bit operating system, Comment lines 3, 4 and uncomment lines 6, 7
+    # config.vm.box       = 'precise64'
+    # config.vm.box_url   = 'http://files.vagrantup.com/precise64.box'
+
 
     # Configure the network interfaces
     config.vm.network :private_network, ip:    "33.33.33.33"
