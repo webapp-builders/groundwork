@@ -2,7 +2,7 @@
 
 ---------------------------------
 
-## Step Zero - Install Ansible
+## Step One - Install Ansible
 
 You can follow the instructions on the [Ansible website](http://docs.ansible.com/intro_installation.html#installing-the-control-machine) or either of the options below:
 
@@ -35,19 +35,19 @@ yum install ansible
 
 ---------------------------------
 
-## Step One - Virtualbox
+## Step Two - Virtualbox
 
 Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and install.
 
 ---------------------------------
 
-## Step Two - Vagrant
+## Step Three - Vagrant
 
 Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
 ---------------------------------
 
-## Step Three - Repo
+## Step Four - Repo
 
 Go to directory you want clone into. For example, if you want to clone into `/someuser/myapps/`
 
@@ -60,7 +60,7 @@ git clone https://github.com/webapp-builders/groundwork.git
 
 ---------------------------------
 
-## Step Four
+## Step Five
 
 ```
 cd groundwork
@@ -70,7 +70,7 @@ Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" (which is
 
 ---------------------------------
 
-## Step Five
+## Step Six
 
 
 ```
@@ -85,7 +85,7 @@ vagrant provision
 
 ---------------------------------
 
-## Step Six
+## Step Seven
 
 ```
 vagrant ssh
@@ -97,7 +97,7 @@ vagrant ssh
 
 ---------------------------------
 
-## Step Seven
+## Step Eight
 
 ```
 cd /vagrant/application/web
@@ -105,18 +105,10 @@ cd /vagrant/application/web
 
 ---------------------------------
 
-## Step Eight
-
-```
-bundle install
-```
-
----------------------------------
-
 ## Step Nine
 
 ```
-bundle exec rspec spec
+bundle install
 ```
 
 ---------------------------------
