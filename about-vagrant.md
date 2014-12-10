@@ -45,6 +45,7 @@ Vagrant has the ability to sync folders in the host machine with folders in the 
 
 The groundwork vagrant configuration currently syncs the 'groundwork' folder in the host machine as '/vagrant' in the virtual machine.
 This means if you add a folder to 'groundwork', you will see it in' /vagrant' and vice versa.
+
 Example: '/your_name_here/groundwork/newfolder' can be found as '/vagrant/newfolder' in the virtual machine.
 
 
@@ -53,6 +54,7 @@ The default ip address used by the groundwork virtual server is:
 33.33.33.33
 
 Remember to set the ip address when you start the rails server for any project running within this virtual machine.
+
 `rails s -b 33.33.33.33`
 
 
@@ -76,13 +78,13 @@ You can make a symbolic link if you'd like to see the folder as soon as you ssh 
 If you would like your new folder to be named 'workspace', start terminal and do the following:
 
 ```
-cd groundwork                       # this will vary depending on where you wish to put your projects
-mkdir workspace                     # makes a new folder named workspace
-vagrant up                          # starts vagrant
-vagrant ssh                         # enters vagrant
+cd groundwork                       # this will vary depending on where you have put the groundwork folder
+mkdir workspace                     # make a new folder named workspace
+vagrant up                          # start vagrant
+vagrant ssh                         # enter vagrant
 ln -s /vagrant/workspace workspace  # make a symbolic link named' workspace' that acts as a shortcut to '/vagrant/workspace'
 exit                                # leave vagrant
-vagrant halt                        # turning off vagrant, since I'm not doing anything else.
+vagrant halt                        # turn off vagrant, since I'm not doing anything else.
 ```
 
 
