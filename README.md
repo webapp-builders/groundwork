@@ -73,13 +73,12 @@ cd groundwork
 
 ## Step Six
 
-
 ```
 vagrant up
 ```
 **_Note:_** If your terminal seems to be "stuck" at `TASK: rvm...` just wait.  This might take a while, because you are installing Ruby using RVM.  This is a good sign.  It means everything is installing properly.
 
-
+---------------------------------
 
 You may want to use:
 ```
@@ -89,7 +88,7 @@ vagrant provision
 1. If for any reason, you had stopped through the process and want to continue where you left off.<br>
 2. If you update your ansible recipe, and you want to update your virtual machine.
 
-
+---------------------------------
 
 **_Note_**:  You many receive an error if you already have Rail or Postgresql running on your machine. <br>
 This means you need to *stop* Rails and/or Postgresql.
