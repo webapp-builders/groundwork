@@ -6,3 +6,8 @@
   - name: Install RVM
     sudo: no
     shell: bash -c "curl -sSL https://get.rvm.io | bash -s stable --ruby={{ ruby_version }}"
+
+  - name: Do not install documentation
+    sudo: no
+    template: src=gemrc.j2 dest=~/.gemrc
+
