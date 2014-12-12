@@ -22,6 +22,9 @@ brew install ansible
 ```
 sudo apt-get install python-yaml python-markupsafe nfs-kernel-server nfs-common portmap
 sudo apt-get install software-properties-common
+```
+Test to see if ansible is installed using `ansible --version`  If it is not installed, do the following:
+```
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible
@@ -65,6 +68,9 @@ git clone https://github.com/webapp-builders/groundwork.git
 ```
 cd groundwork
 ```
+
+You can confirm that you are in the correct directory by typing `ls`.  If you see a file `Vagrantfile` you are in the correct directory.
+
 **_Note_**: If your computer only supports 32-bit operating systems, after `cd groundwork`, open the file: `Vagrantfile`<br>
 Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
 (this will tell VirtualBox to run the "precise32" operating system).
@@ -76,11 +82,11 @@ Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
 ```
 vagrant up
 ```
-**_Note:_** If your terminal seems to be "stuck" at `TASK: rvm...` just wait.  This might take a while, because you are installing Ruby using RVM.  This is a good sign.  It means everything is installing properly.
+**__READ BELOW:__** Numerous messages and errors may occur once typing `vagrant up`.  Read the following notes 1 & 2, to make sure you are on the right track. 
 
 ---------------------------------
 
-You may want to use:
+**_Later_**, upon subsequent updates, you may want to use (you may skip this command for a first time install):
 ```
 vagrant provision
 ```
@@ -90,7 +96,10 @@ vagrant provision
 
 ---------------------------------
 
-**_Note_**:  You many receive an error if you already have Rail or Postgresql running on your machine. <br>
+**_Note 1_**:  If your terminal seems to be "stuck" at `TASK: rvm...` just wait.  This might take a while, because you are installing Ruby using RVM.  This is a good sign.  It means everything is installing properly.
+
+
+**_Note 2_**:  You many receive an error if you already have Rail or Postgresql running on your machine. <br>
 This means you need to *stop* Rails and/or Postgresql.
 
 An error might look like the following:
@@ -131,7 +140,7 @@ Go online, search for "how to stop postgresql osx"<br>
 ```
 vagrant ssh
 ```
-
+Your terminal prompt should change from your normal one, 
 ---------------------------------
 
 #### If you want to use your own application (like the hartl tutorial, for example), do the necessary steps you do and skip to step 10.
