@@ -84,19 +84,9 @@ Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
 ```
 vagrant up
 ```
-**__READ BELOW:__** Numerous messages and errors may occur once typing `vagrant up`.<br>
+**__READ Below for possible "terminal messages":__**<br>
+Numerous messages and errors may occur once typing `vagrant up`.<br>
 Read the following _Terminal Message 1_ and _Terminal Message 2_, to make sure you are on the right track. 
-
----------------------------------
-
-(You may skip this command for a first time install)<br>
-Upon subsequent updates, you may want to use:
-```
-vagrant provision
-```
-**_"vagrant provision" may be used for two reasons_**:<br>
-A. If for any reason, you had stopped through the process and want to continue where you left off.<br>
-B. If you update your ansible recipe, and you want to update your virtual machine.
 
 ---------------------------------
 
@@ -135,6 +125,17 @@ sudo service postgresql stop
 **_For  OSX homebrew_**:<br>
 Go online, search for "how to stop postgresql osx"<br>
 (There will be different instructions depending on how your Mac is setup).
+
+---------------------------------
+
+(You may skip this command for a first time install)<br>
+Upon subsequent updates, you may want to use:
+```
+vagrant provision
+```
+**_"vagrant provision" may be used for two reasons_**:<br>
+A. If for any reason, you had stopped through the process and want to continue where you left off.<br>
+B. If you update your ansible recipe, and you want to update your virtual machine.
 
 
 ---------------------------------
