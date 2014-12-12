@@ -145,7 +145,9 @@ B. If you update your ansible recipe, and you want to update your virtual machin
 ```
 vagrant ssh
 ```
-Your terminal prompt should change from your normal one, 
+
+Your terminal prompt should change from your normal one.  
+
 ---------------------------------
 
 #### If you want to use your own application (like the hartl tutorial, for example), do the necessary steps you do and skip to step 10.
