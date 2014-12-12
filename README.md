@@ -57,9 +57,6 @@ Then type below:
 ```
 git clone https://github.com/webapp-builders/groundwork.git
 ```
-**_Note_**: If your computer only supports 32-bit operating systems, open the file: `Vagrantfile`<br>
-Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
-(this will tell VirtualBox to run the "precise32" operating system).
 
 ---------------------------------
 
@@ -68,6 +65,9 @@ Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
 ```
 cd groundwork
 ```
+**_Note_**: If your computer only supports 32-bit operating systems, after `cd groundwork`, open the file: `Vagrantfile`<br>
+Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
+(this will tell VirtualBox to run the "precise32" operating system).
 
 ---------------------------------
 
