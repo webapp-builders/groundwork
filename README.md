@@ -82,24 +82,26 @@ Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
 ```
 vagrant up
 ```
-**__READ BELOW:__** Numerous messages and errors may occur once typing `vagrant up`.  Read the following notes 1 & 2, to make sure you are on the right track. 
+**__READ BELOW:__** Numerous messages and errors may occur once typing `vagrant up`.<br>
+Read the following _Terminal Message 1_ and _Terminal Message 2_, to make sure you are on the right track. 
 
 ---------------------------------
 
-**_Later_**, upon subsequent updates, you may want to use (you may skip this command for a first time install):
-```
-vagrant provision
-```
-**_"vagrant provision" may be used for two reasons_**:<br>
-1. If for any reason, you had stopped through the process and want to continue where you left off.<br>
-2. If you update your ansible recipe, and you want to update your virtual machine.
+  (You may skip this command for a first time install)
+  **_Later_**, upon subsequent updates, you may want to use:
+  ```
+  vagrant provision
+  ```
+  **_"vagrant provision" may be used for two reasons_**:<br>
+  A. If for any reason, you had stopped through the process and want to continue where you left off.<br>
+  B. If you update your ansible recipe, and you want to update your virtual machine.
 
 ---------------------------------
 
-**_Note 1_**:  If your terminal seems to be "stuck" at `TASK: rvm...` just wait.  This might take a while, because you are installing Ruby using RVM.  This is a good sign.  It means everything is installing properly.
+**_Terminal Message 1_**:  If your terminal seems to be "stuck" at `TASK: rvm...` just wait.  This might take a while, because you are installing Ruby using RVM.  This is a good sign.  It means everything is installing properly.
 
 
-**_Note 2_**:  You many receive an error if you already have Rail or Postgresql running on your machine. <br>
+**_Terminal Message 2_**:  You many receive an error if you already have Rail or Postgresql running on your machine. <br>
 This means you need to *stop* Rails and/or Postgresql.
 
 An error might look like the following:
