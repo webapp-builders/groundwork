@@ -69,7 +69,9 @@ git clone https://github.com/webapp-builders/groundwork.git
 cd groundwork
 ```
 
-You can confirm that you are in the correct directory by typing `ls`.  If you see a file `Vagrantfile` you are in the correct directory.
+You can confirm that you are in the correct directory by typing `ls`.<br>
+If you see a file `Vagrantfile` you are in the correct directory.
+
 
 **_Note_**: If your computer only supports 32-bit operating systems, after `cd groundwork`, open the file: `Vagrantfile`<br>
 Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
@@ -87,14 +89,14 @@ Read the following _Terminal Message 1_ and _Terminal Message 2_, to make sure y
 
 ---------------------------------
 
-  (You may skip this command for a first time install)
-  **_Later_**, upon subsequent updates, you may want to use:
-  ```
-  vagrant provision
-  ```
-  **_"vagrant provision" may be used for two reasons_**:<br>
-  A. If for any reason, you had stopped through the process and want to continue where you left off.<br>
-  B. If you update your ansible recipe, and you want to update your virtual machine.
+(You may skip this command for a first time install)<br>
+Upon subsequent updates, you may want to use:
+```
+vagrant provision
+```
+**_"vagrant provision" may be used for two reasons_**:<br>
+A. If for any reason, you had stopped through the process and want to continue where you left off.<br>
+B. If you update your ansible recipe, and you want to update your virtual machine.
 
 ---------------------------------
 
