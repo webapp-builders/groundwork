@@ -72,9 +72,10 @@ cd groundwork
 You can confirm that you are in the correct directory by typing `ls`.<br>
 If you see a file `Vagrantfile` you are in the correct directory.
 
+**_Note_**: If you are using ubuntu as your primary OS, uncomment line 22 to use the VirtualBox GUI.
 
 **_Note_**: If your computer only supports 32-bit operating systems, after `cd groundwork`, open the file: `Vagrantfile`<br>
-Comment out lines 3 and 4, and uncomment lines 6, 7 to use "precise32" <br>
+Comment out line 3 and uncomment line 5 to use "ubuntu/trusty64" <br>
 (this will tell VirtualBox to run the "precise32" operating system).
 
 ---------------------------------

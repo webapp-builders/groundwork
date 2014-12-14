@@ -15,14 +15,6 @@
       - libpq-dev
       - python-psycopg2
 
-  - name: Stop pgcluster
-    sudo: yes
-    command: pg_dropcluster --stop 9.1 main
-
-  - name: Restart pgcluster
-    sudo: yes
-    command: pg_createcluster --start --locale en_US.UTF-8 9.1 main
-
   - name: ensure database is created
     sudo: yes
     sudo_user: postgres
