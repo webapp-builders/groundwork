@@ -201,10 +201,12 @@ Access the shared directory by typing `cd /vagrant`<br>
 You can think of your shared directory as a portal between two operating systems.  That means that you can access your files from two locations: (1) in your virtual machines operating system (the _remote OS_), and (2) from your normal computer(the _host OS_).
 
 *_(1) Accessing the file through your remote OS:_* <br>
+(After typing `cd /vagrant`)<br>
 Once again, type `ls`.<br>
-Now, you **will see a list of directories** populated by the Groundwork project (this does not come standard. The Groudwork repo provided you with extra files).  
+You **will see a list of directories** populated by the Groundwork project (This does not come standard. The Groudwork repo provided you with extra files and directories.  You can navigate these directories as you normal would.)  
 
 *_(2) Access the files through your normal machine:_*<br>
+(In a seperate terminal, or however you usually browse through files and directories...)<br>
 Go to the directory where you cloned Groundwork (from STEP FOUR)
 
 These are the **_exact same files_** accessible from two locations.  If you edit them in one place, they are edited in the other.
