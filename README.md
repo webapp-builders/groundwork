@@ -218,6 +218,7 @@ cd /vagrant/application/web
 
 ```
 bundle install
+rake db:create db:migrate
 ```
 
 ---------------------------------
