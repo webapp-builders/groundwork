@@ -162,8 +162,7 @@ The whole reason you are using Vagrant is to have another operating system (with
 Type `cd /vagrant`. This will put you in your virtual machine's **_Shared Directory_**. <br>
 (See "Understanding Shared Directories" below):
 
-##### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example),<br>
-##### this is a good place to start.
+#### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example) this is a good place to start.
 
 Once you are in the `/vagrant` directory, you could:
 * Create a new directory to hold a new rails application
