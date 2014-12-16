@@ -188,32 +188,31 @@ Once new application setup is complete, you may  **skip to STEP TEN** to launch 
   
   * After you have done `vagrant ssh`
   * Once you the terminal prompt change to `vagrant@vagrant..:~$` 
-  * you are now navigating the terminal of the **_remote OS_**.
-  
+  * You are now navigating the terminal of the **_remote OS_**.
 
-  Now, in the remote OS, try to list all of your files and directories, by typing `ls`.<br>
-  You will likely get *no results* (or only a file or two).  You *will not* see a list of directories.<br>
-  
-  **Though you _did not see_ any directories, you CAN access the shared directory:<br>**
-  Access the shared directory by typing `cd /vagrant`<br>
-  This the default name given to your shared directory (specified at setup).
-  
-  You can think of your shared directory as a portal between two operating systems.  That means that you can access your files from two locations: (1) in your virtual machines operating system, and (2) from your normal computer.
-  
-  *_(1) Accessing the file through your virtual operating system:_* <br>
-  Once again, type `ls`.<br>
-  Now, you **will see a list of directories** populated by the Groundwork project.  
-  
-  *_(2) Access the files through your normal machine:_*<br>
-  Go to the directory where you cloned Groundwork (from STEP FOUR)
-  
-  These are the **_exact same files_** accessible from two locations.  If you edit them in one place, they are edited in the other.
-  
-  The Groundwork project has seeded you with these starter directories and files.<br>
-  You can play with them by typing `cd /application/web` <br>
-  (**This is the same as STEP EIGHT**)
-  
-  You are now in a rails directory.  Go to STEP NINE.
+Now, in the remote OS, try to list all of your files and directories, by typing `ls`.<br>
+You will likely get *no results* (or only a file or two).  You *will not* see a list of directories.<br>
+
+**Though you _did not see_ any directories, you CAN access the shared directory:<br>**
+Access the shared directory by typing `cd /vagrant`<br>
+This the default name given to your shared directory (specified at setup).
+
+You can think of your shared directory as a portal between two operating systems.  That means that you can access your files from two locations: (1) in your virtual machines operating system, and (2) from your normal computer.
+
+*_(1) Accessing the file through your virtual operating system:_* <br>
+Once again, type `ls`.<br>
+Now, you **will see a list of directories** populated by the Groundwork project.  
+
+*_(2) Access the files through your normal machine:_*<br>
+Go to the directory where you cloned Groundwork (from STEP FOUR)
+
+These are the **_exact same files_** accessible from two locations.  If you edit them in one place, they are edited in the other.
+
+The Groundwork project has seeded you with these starter directories and files.<br>
+You can play with them by typing `cd /application/web` <br>
+(**This is the same as STEP EIGHT**)
+
+You are now in a rails directory.  Go to STEP NINE.
 
 ---------------------------------
 
