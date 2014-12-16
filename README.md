@@ -195,13 +195,15 @@ You will likely get *no results* (or only a file or two).  You *will not* see a 
 
 **Though you _did not see_ any directories, you CAN access the shared directory:<br>**
 Access the shared directory by typing `cd /vagrant`<br>
-This the default name given to your shared directory (specified at setup).
+  * This may feel counter-intuative.  You just tried listing directories by tying `ls` and there were no results.
+  * Still, you **_CAN CHANGE INTO THE SHARED DIRECTORY_** by typing `cd /vagrant`.
+"vagrant" is the default name given to your shared directory (specified at setup).
 
-You can think of your shared directory as a portal between two operating systems.  That means that you can access your files from two locations: (1) in your virtual machines operating system, and (2) from your normal computer.
+You can think of your shared directory as a portal between two operating systems.  That means that you can access your files from two locations: (1) in your virtual machines operating system (the _remote OS_), and (2) from your normal computer(the _host OS_).
 
-*_(1) Accessing the file through your virtual operating system:_* <br>
+*_(1) Accessing the file through your remote OS:_* <br>
 Once again, type `ls`.<br>
-Now, you **will see a list of directories** populated by the Groundwork project.  
+Now, you **will see a list of directories** populated by the Groundwork project (this does not come standard. The Groudwork repo provided you with extra files).  
 
 *_(2) Access the files through your normal machine:_*<br>
 Go to the directory where you cloned Groundwork (from STEP FOUR)
