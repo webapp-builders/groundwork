@@ -134,7 +134,7 @@ Upon subsequent updates, you may want to use:
 ```
 vagrant provision
 ```
-**_"vagrant provision" may be used for two reasons_**:<br>
+**_`vagrant provision` may be used for two reasons_**:<br>
 A. If for any reason, you had stopped through the process and want to continue where you left off.<br>
 B. If you update your ansible recipe, and you want to update your virtual machine.
 
@@ -150,7 +150,7 @@ vagrant ssh
 Your terminal prompt should change from your normal one.
 
 **_For example_**:<br>
-Your terminal prompt _before_:   OSX@jennifer~/mystudyfile $<br>
+Your terminal prompt _before_:   OSX@jennifer~/myworkfiles $<br>
 Your terminal prompt _after_:   vagrant@vagrant-ubuntu-trusty-32:~$<br>
 
 Once you have typed `vagrant ssh` and your terminal prompt has successfully changed to a new one such as `vagrant@vagrant-ubuntu-trusty-32:~$` this means you are now **using the terminal of another operating system**!
@@ -159,13 +159,20 @@ The whole reason you are using Vagrant is to have another operating system (with
 
 ---------------------------------
 
-##### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example), this is a good place to start.
+Type `cd /vagrant`. This will put you in your virtual machine's **_Shared Directory_**. <br>
+(See "Understanding Shared Directories" below):
 
-Type `cd /vagrant`. This will put you in your virtual machine's **_SHARED DIRECTORY_** and **SKIP to STEP TEN**.
+##### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example), this is a good place to start.<br>
+
+Once you are in the `/vagrant` directory, you could:
+* Create a new directory to hold a new rails application
+* Run `rails new example_app`  (Hartl Section 1.3, Section 2.1, Section 3.1, etc.)
+
+Once new application setup is complete, you may  **skip to STEP TEN** to launch a rails server.
 
 ---------------------------------
 
-### Understand Shared Directories:
+### Understanding Shared Directories:
 (You can skip to **STEP EIGHT** if you understand how Vagrant shares directories)<br>
   
   There is now a **_SHARED DIRECTORY_** between the two operating systems.
