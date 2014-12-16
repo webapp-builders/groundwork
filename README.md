@@ -196,9 +196,7 @@ Type `cd /vagrant`. This will put you in your virtual machine's **_SHARED DIRECT
   You can play with them by typing `cd /application/web` <br>
   * **This is the same as STEP EIGHT**
   
-  You are now in a rails directory (You can launch your rails server).
-
-Go to STEP NINE.
+  You are now in a rails directory.  Go to STEP NINE.
 
 ---------------------------------
 
