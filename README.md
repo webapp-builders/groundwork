@@ -147,11 +147,57 @@ B. If you update your ansible recipe, and you want to update your virtual machin
 vagrant ssh
 ```
 
-Your terminal prompt should change from your normal one.  
+Your terminal prompt should change from your normal one.
+
+**_For example_**:<br>
+Your terminal prompt _before_:   OSX@jennifer~/mystudyfile $<br>
+Your terminal prompt _after_:   vagrant@vagrant-ubuntu-trusty-32:~$<br>
+
+Once you have typed `vagrant ssh` and your terminal prompt has successfully changed to a new one such as `vagrant@vagrant-ubuntu-trusty-32:~$` this means you are now **using the terminal of another operating system**!
+
+The whole reason you are using Vagrant is to have another operating system (within your computer) to have a completely isolated environment for development.  
 
 ---------------------------------
 
-#### If you want to use your own application (like the hartl tutorial, for example), do the necessary steps you do and skip to step 10.
+##### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example), this is a good place to start.
+
+Type `cd /vagrant`. This will put you in your virtual machine's **_SHARED DIRECTORY_** and **SKIP to STEP TEN**.
+
+---------------------------------
+
+### UNDERSTAND Shared Directory:<br>
+(You can skip to **STEP EIGHT** if you understand how Vagrant shares directories)<br>
+
+There is now a **_SHARED DIRECTORY_** between the two operating systems.
+
+First off, let's get our bearings.<br>
+
+(After you have done `vagrant ssh` and you see your new `vagrant@vagrant..:~$` prompt).
+
+Try to list all of your files and directories, by typing `ls`.<br>
+You will likely get *no results*.  You will *not* see a list of directories.<br>
+
+**Though you _did not see_ any directories, you can access the shared directory:<br>**
+Access the shared directory by typing `cd /vagrant`<br>
+This the default name given to your shared directory (specified at setup).
+
+You can think of your shared directory as a portal between two operating systems.  That means that you can access your files from two locations, (1) in your virtual machines operating system, and (2) from your normal computer.
+
+(1) Accessing the file through your virtual operating system: <br>
+
+Once again, type `ls`.<br>
+Now, you **will see a list of directories** populated by the groundwork project.  
+
+(2) Access the files through your normal machine:<br>
+Go to the directory where you cloned Groundwork (from STEP FOUR)
+
+These are the **_exact same files_** accessible from two locations.  If you edit them in one place, they are edited in the other.
+
+The Groundwork project has seeded you with some starter directories.<br>
+Type `cd /application/web` <br>
+* **This is the same as STEP EIGHT**
+
+You are now in a rails directory.  Go to STEP NINE.
 
 ---------------------------------
 
