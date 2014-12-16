@@ -153,7 +153,7 @@ Your terminal prompt should change from your normal one.
 Your terminal prompt _before_:   OSX@jennifer~/myworkfiles $<br>
 Your terminal prompt _after_:   vagrant@vagrant-ubuntu-trusty-32:~$<br>
 
-Once you have typed `vagrant ssh` and your terminal prompt has successfully changed to a new one such as `vagrant@vagrant-ubuntu-trusty-32:~$` this means you are now **using the terminal of another operating system**!
+Once you have typed `vagrant ssh` and your terminal prompt has successfully changed to a new one such as `vagrant@vagrant-ubuntu-trusty-32:~$` this means you are now **using the terminal of another operating system!**
 
 The whole reason you are using Vagrant is to have another operating system (within your computer) to have a completely isolated environment for development.  
 
@@ -162,7 +162,8 @@ The whole reason you are using Vagrant is to have another operating system (with
 Type `cd /vagrant`. This will put you in your virtual machine's **_Shared Directory_**. <br>
 (See "Understanding Shared Directories" below):
 
-##### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example), this is a good place to start.<br>
+##### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example),<br>
+this is a good place to start.
 
 Once you are in the `/vagrant` directory, you could:
 * Create a new directory to hold a new rails application
@@ -186,9 +187,10 @@ Once new application setup is complete, you may  **skip to STEP TEN** to launch 
   `vagrant ssh` opened a connection between the two computers, and automatically you are now using the terminal of the remote OS. 
   
   * After you have done `vagrant ssh`
-  * Once you the terminal prompt change to `vagrant@vagrant..:~$`
+  * Once you the terminal prompt change to `vagrant@vagrant..:~$` 
   * you are now navigating the terminal of the **_remote OS_**.
   
+
   Now, in the remote OS, try to list all of your files and directories, by typing `ls`.<br>
   You will likely get *no results* (or only a file or two).  You *will not* see a list of directories.<br>
   
