@@ -186,7 +186,7 @@ Once new application setup is complete, you may  **skip to STEP TEN** to launch 
   `vagrant ssh` opened a connection between the two computers, and automatically you are now using the terminal of the remote OS. 
   
   * After you have done `vagrant ssh`
-  * Once you the terminal prompt change to `vagrant@vagrant..:~$` 
+  * After the terminal prompt change to something like `vagrant@vagrant..:~$` 
   * You are now navigating the terminal of the **_remote OS_**.
 
 Now, in the remote OS, try to list all of your files and directories, by typing `ls`.<br>
@@ -194,7 +194,7 @@ You will likely get *no results* (or only a file or two).  You *will not* see a 
 
 **Though you _did not see_ any directories, you CAN access the shared directory:<br>**
 Access the shared directory by typing `cd /vagrant`<br>
-  * This may feel counter-intuative.  You just tried listing directories by tying `ls` and there were no results.
+  * This may feel counter-intuitive.  You just tried listing directories by tying `ls` and there were no results.
   * Still, you **_CAN CHANGE INTO THE SHARED DIRECTORY_** by typing `cd /vagrant`.
 "vagrant" is the default name given to your shared directory (specified at setup).
 
