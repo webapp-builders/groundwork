@@ -149,7 +149,7 @@ vagrant ssh
 
 Your terminal prompt should change from your normal one.
 
-**_For example_**:<br>
+**For example**:<br>
 Your terminal prompt _before_:   OSX@jennifer~/myworkfiles $<br>
 Your terminal prompt _after_:   vagrant@vagrant-ubuntu-trusty-32:~$<br>
 
@@ -177,7 +177,7 @@ Once new application setup is complete, you may  **skip to STEP TEN** to launch 
   
   There is now a **_SHARED DIRECTORY_** between the two operating systems.
   
-  **_Terminology_**:<br>
+  **Terminology**:<br>
   Your normal computer's OS is called: the **_host OS_**<br>
   The new computer's OS, you created in VirtualBox, is called: the **_remote OS_**
 
@@ -186,7 +186,7 @@ Once new application setup is complete, you may  **skip to STEP TEN** to launch 
   `vagrant ssh` opened a connection between the two computers, and automatically you are now using the terminal of the remote OS. 
   
   * After you have done `vagrant ssh`
-  * Once you the terminal prompt change to `vagrant@vagrant..:~$`<br>
+  * Once you the terminal prompt change to `vagrant@vagrant..:~$`
   * you are now navigating the terminal of the **_remote OS_**.
   
   Now, in the remote OS, try to list all of your files and directories, by typing `ls`.<br>
