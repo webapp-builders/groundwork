@@ -150,10 +150,11 @@ vagrant ssh
 Your terminal prompt should change from your normal one.
 
 **For example**:<br>
+(These are not exact, the will vary from computer to computer)<br>
 Your terminal prompt _before_:   OSX@jennifer~/myworkfiles $<br>
-Your terminal prompt _after_:   vagrant@vagrant-ubuntu-trusty-32:~$<br>
+Your terminal prompt _after_:   vagrant@vagrant-ubuntu-trusty-64:~$<br>
 
-Once you have typed `vagrant ssh` and your terminal prompt has successfully changed to a new one such as `vagrant@vagrant-ubuntu-trusty-32:~$` this means you are now **using the terminal of another operating system!**
+Once you have typed `vagrant ssh` and your terminal prompt has successfully changed to a new one such as `vagrant@vagrant-ubuntu-trusty-64:~$` this means you are now **using the terminal of another operating system!**
 
 The whole reason you are using Vagrant is to have another operating system (within your computer) to have a completely isolated environment for development.  
 
@@ -162,13 +163,21 @@ The whole reason you are using Vagrant is to have another operating system (with
 Type `cd /vagrant`. This will put you in your virtual machine's **_Shared Directory_**. <br>
 (See "Understanding Shared Directories" below):
 
-#### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example) this is a good place to start.
+### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example) this is a good place to start.
 
+#### For example:
+(This is only one way to do it.  Similar to Hartl's tutorial in Section 1.3).<br>
 Once you are in the `/vagrant` directory, you could:
-* Create a new directory to hold a new rails application
-* Run `rails new example_app`  (Hartl Section 1.3, Section 2.1, Section 3.1, etc.)
+* Install Rails gem, specifying version `gem install rails -v 4.2.0.beta4`
+* Create a new directory to hold all of your Rails applications `mkdir workspace`
+* Move into the workspace directory `cd workspace`
+* Create new Rails app, specifying version `rails _4.2.0.beta4_ new example_app`<br>
+  (Hartl Section 1.3, Section 2.1, Section 3.1, etc.)
+* A new Rails app should have run "bundle install" automatically, but if it did not run `bundle install`
+* Move into your new application directory `cd example_app`
+* Run the rails server.   Running the rails server **_in Vagrant_** needs additional parameters (go to STEP TEN).
 
-Once new application setup is complete, you may  **skip to STEP TEN** to launch a rails server.
+While **in Vagrant**, once new application setup is complete, you may  **skip to STEP TEN** to launch the rails server.
 
 ---------------------------------
 
