@@ -16,3 +16,5 @@
 # Ignore all logfiles and tempfiles.
 /application/web/log/*.log
 /application/web/tmp
+
+/application
