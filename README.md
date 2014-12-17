@@ -165,7 +165,7 @@ Type `cd /vagrant`. This will put you in your virtual machine's **_Shared Direct
 
 ### If you want to use your own application (like from Hartl's www.RailsTutorial.org, for example) this is a good place to start.
 
-#### For example:
+**_For example:_**<br>
 (This is only one way to do it.  Similar to Hartl's tutorial in Section 1.3).<br>
 Once you are in the `/vagrant` directory, you could:
 * Install Rails gem, specifying version `gem install rails -v 4.2.0.beta4`
@@ -173,11 +173,12 @@ Once you are in the `/vagrant` directory, you could:
 * Move into the workspace directory `cd workspace`
 * Create new Rails app, specifying version `rails _4.2.0.beta4_ new example_app`<br>
   (Hartl Section 1.3, Section 2.1, Section 3.1, etc.)
-* A new Rails app should have run "bundle install" automatically, but if it did not run `bundle install`
+* A new Rails app should have run "bundle install" automatically, but if it did not, run `bundle install`
 * Move into your new application directory `cd example_app`
-* Run the rails server.   Running the rails server **_in Vagrant_** needs additional parameters (go to STEP TEN).
+* Run the rails server.   Running the rails server **_in Vagrant_** needs additional parameters (see STEP TEN).
 
-While **in Vagrant**, once new application setup is complete, you may  **skip to STEP TEN** to launch the rails server.
+
+While in the `/vagrant` shared directory, once new application setup is complete, you may  **_skip to STEP TEN_** to launch the rails server.
 
 ---------------------------------
 
