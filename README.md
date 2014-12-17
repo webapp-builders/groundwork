@@ -178,6 +178,7 @@ Once you are in the `/vagrant` directory, you could:
 * Run the rails server.   Running the rails server **_in Vagrant_** needs additional parameters (see STEP TEN).
 
 
+**_Instructions needed to launch Rails server locally, while in a Vagrant remote OS:_**<br>
 While in the `/vagrant` shared directory, once new application setup is complete, you may  **_skip to STEP TEN_** to launch the rails server.
 
 ---------------------------------
