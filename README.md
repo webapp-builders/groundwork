@@ -138,7 +138,17 @@ vagrant provision
 A. If for any reason, you had stopped through the process and want to continue where you left off.<br>
 B. If you update your ansible recipe, and you want to update your virtual machine.
 
+**_Terminal Message 3_**: You may receive this error if your vagrant version is older than version 1.5.4 <br>
+To check type `vagrant -v` in your terminal. <br> <br>To fix it; update your vagrant and run `$ vagrant up ` again.
 
+```
+Bringing machine 'default' up with 'virtualbox' provider...
+There are errors in the configuration of this machine. Please fix
+the following errors and try again:
+
+vm:
+* The box 'ubuntu/trusty64' could not be found.
+```
 ---------------------------------
 
 ## Step Seven
